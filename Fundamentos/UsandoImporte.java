@@ -11,7 +11,9 @@ public class UsandoImporte {
         Date d = new Date();
         JButton j = new JButton();
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Testando o scanner: ");
+        System.out.print("Testando o scanner: ");
+        int idade = entrada.nextInt();
+        System.out.println(idade);
 
         entrada.close();
 
