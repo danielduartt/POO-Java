@@ -9,5 +9,7 @@ public class TipoString {
         System.out.println(s.endsWith("pessoal"));
         System.out.println(s.equals("boa tarde")); //false
         System.out.println(s.equalsIgnoreCase("boa tarde")); //true
+        //Igualdade de Strings
+
     }
 }
